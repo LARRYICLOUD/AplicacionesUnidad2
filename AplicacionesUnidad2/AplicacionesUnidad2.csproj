@@ -68,6 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Aplicacion1a.aspx" />
+    <Content Include="Aplicacion1b.aspx" />
+    <Content Include="Aplicacion2a.aspx" />
+    <Content Include="Aplicacion2b.aspx" />
+    <Content Include="Aplicacion3a.aspx" />
+    <Content Include="Aplicacion3b.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +82,41 @@
     </Compile>
     <Compile Include="Aplicacion1a.aspx.designer.cs">
       <DependentUpon>Aplicacion1a.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aplicacion1b.aspx.cs">
+      <DependentUpon>Aplicacion1b.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aplicacion1b.aspx.designer.cs">
+      <DependentUpon>Aplicacion1b.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aplicacion2a.aspx.cs">
+      <DependentUpon>Aplicacion2a.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aplicacion2a.aspx.designer.cs">
+      <DependentUpon>Aplicacion2a.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aplicacion2b.aspx.cs">
+      <DependentUpon>Aplicacion2b.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aplicacion2b.aspx.designer.cs">
+      <DependentUpon>Aplicacion2b.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aplicacion3a.aspx.cs">
+      <DependentUpon>Aplicacion3a.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aplicacion3a.aspx.designer.cs">
+      <DependentUpon>Aplicacion3a.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aplicacion3b.aspx.cs">
+      <DependentUpon>Aplicacion3b.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aplicacion3b.aspx.designer.cs">
+      <DependentUpon>Aplicacion3b.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

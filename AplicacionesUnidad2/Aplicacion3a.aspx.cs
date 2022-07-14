@@ -35,7 +35,7 @@ namespace AplicacionesUnidad2
                 while (dr.Read())
                 {
 
-                    ddlTablaAlmacen.Items.Add(dr["id_producto"]+""+ dr["descripcion"]);
+                    ddlTablaAlmacen.Items.Add(dr["id_producto"]+"-"+ dr["descripcion"]);
 
                 }
                 cn.Close();

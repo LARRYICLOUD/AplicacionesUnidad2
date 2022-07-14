@@ -73,6 +73,7 @@
     <Content Include="Aplicacion2b.aspx" />
     <Content Include="Aplicacion3a.aspx" />
     <Content Include="Aplicacion3b.aspx" />
+    <Content Include="Aplicacion4.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -117,6 +118,13 @@
     </Compile>
     <Compile Include="Aplicacion3b.aspx.designer.cs">
       <DependentUpon>Aplicacion3b.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aplicacion4.aspx.cs">
+      <DependentUpon>Aplicacion4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aplicacion4.aspx.designer.cs">
+      <DependentUpon>Aplicacion4.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
